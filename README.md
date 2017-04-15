@@ -1,8 +1,8 @@
 # Automatic docs publication from organization repository
 
-**What it do?**
+**What it does?**
 
-This scripts automates the proccess of fetching and publishing docs from 0xhexspeak organization repositories using [Surge](https://surge.sh).
+This script automates the proccess of fetching and publishing docs from 0xhexspeak organization repositories using [Surge](https://surge.sh).
 
 **How to run?**
 
