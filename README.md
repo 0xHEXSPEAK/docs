@@ -1,8 +1,10 @@
-# Automatic docs publication from organization repository
+# SurgeDoc
+
+![surgedoc](http://githubimg.surge.sh/surgedoc.png "SurgeDoc Logo")
 
 **What it does?**
 
-This script automates the proccess of fetching and publishing docs from 0xhexspeak organization repositories using [Surge](https://surge.sh).
+This script automates the proccess of fetching and publishing docs from github organization repositories using [Surge](https://surge.sh).
 
 **How to run?**
 
@@ -11,6 +13,9 @@ This script automates the proccess of fetching and publishing docs from 0xhexspe
 
 ```pip install -r requirements.txt```
 
-3) Run in your shell to start fetch and publish proccess:
+3) Change default sync domain in CNAME to yours 
+4) Run this commands in your shell to start fetch and publish proccess:
 
-```python build.py <your_github_token>```
+```chmod a+x surgedoc.py ```
+
+```./surgedoc.py [--docs <custom_path_to_docs>] [--regex <regular_expression>] <organization_name> <github_token>```
